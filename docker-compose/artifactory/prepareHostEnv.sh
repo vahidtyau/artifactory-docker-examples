@@ -4,7 +4,7 @@
 # These directories are mounted into the Docker containers.
 
 SCRIPT_DIR=$(dirname $0)
-DEFAULT_ROOT_DATA_DIR=/data
+DEFAULT_ROOT_DATA_DIR=/home/jfrog/artifactory-trial
 LINUX_ROOT_DATA_DIR=${DEFAULT_ROOT_DATA_DIR}
 MAC_DEFAULT_ROOT_DATA_DIR=~/.artifactory
 OS_NAME=$(uname)
